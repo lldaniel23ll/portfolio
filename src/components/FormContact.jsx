@@ -1,6 +1,5 @@
 import React, {Fragment, useState} from "react";
-import Button from "react-bootstrap/Button";
-import "./FormContact.css"
+import "./css/FormContact.css"
 
 const FormContact = () => {
     const [data, setData] = useState({
@@ -45,7 +44,7 @@ const FormContact = () => {
                     ></input>
                 </div>
                 <div className='d-grid gap-2'>
-                <Button variant="warning" type="submit">Enviar</Button>{' '}
+                    <button type="submit" class="btn btn-warning">Enviar</button>
                 </div>
                 <div className="p-5">
                     <h3>{data.name} - {data.lastName}</h3>

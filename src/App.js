@@ -1,11 +1,12 @@
-import logo from './logo.svg';
 import './App.css';
-import Header from './components/Header'
+import Header from './components/Header';
 import Footer from './components/Footer';
+import FormContact from './components/FormContact';
 
 function App() {
   return (
     <div>
+      {/* <style>{'body { background-color: #f7f1e3; }'}</style> */}
       <Header />
       <div className='container mt-5'>
         <p>
