@@ -6,7 +6,6 @@ import FormContact from './components/FormContact';
 function App() {
   return (
     <div>
-      {/* <style>{'body { background-color: #f7f1e3; }'}</style> */}
       <Header />
       <div className='container mt-5'>
         <p>
