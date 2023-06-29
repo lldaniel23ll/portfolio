@@ -34,7 +34,7 @@ const Home = () => {
                   <li>Microsoft SQL Server</li>
                   <li>CSS3 y Boostrap</li>
                   <li>HTML5</li>
-                  <li>PHP</li>
+                  <li>PHP</li> 
                 </ul>
               </div>
             </div>
