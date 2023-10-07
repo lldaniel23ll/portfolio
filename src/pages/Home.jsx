@@ -1,5 +1,5 @@
 import React from 'react';
-import img from "../components/img/CV.png"
+import img from "../components/img/CV.png";
 
 const Home = () => {
     return (
@@ -32,20 +32,27 @@ const Home = () => {
                 <ul className="h4 text-center">
                   <li>MySQL</li>
                   <li>Microsoft SQL Server</li>
-                  <li>CSS3 y Boostrap</li>
+                  <li>CSS3 y Bootstrap</li>
                   <li>HTML5</li>
                   <li>PHP</li>
+                  <li>GIT</li>
                 </ul>
               </div>
             </div>
           </div>
 
           <div className="col-md-3 pt-3">
-            <div className="h1 text-underline text-center">Experiencia</div>
-            <p className="pr-4 text-center">
-              La experiencia que poseo es de proyectos que he hecho en ls
-              universidad y propios, puedo trabajar en equipo usando GIT.
-            </p>
+            <div className="card">
+              <div className="card-body">
+                <div className="card-text text-secondary h1 text-underline text-center">
+                  Experiencia
+                </div>
+                <p className="pr-4 text-center">
+                  La experiencia que poseo es de proyectos que he hecho en la
+                  universidad y propios, puedo trabajar en equipo usando GIT.
+                </p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
